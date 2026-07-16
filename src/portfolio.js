@@ -37,9 +37,9 @@ const socialMediaLinks = {
   linkedin: "http://linkedin.com/in/harshitha-boggula-77a7322aa",
   gmail: "harshithaboggula9@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
-  Leetcode: "https://leetcode.com/u/harshitha__b1/",
-  Codechef: "https://www.codechef.com/users/harshitha_b1",
-  Discord: "https://discord.com/channels/1348632761468194877/1348632761753276472",
+  // Leetcode: "https://leetcode.com/u/harshitha__b1/",
+  // Codechef: "https://www.codechef.com/users/harshitha_b1",
+  // Discord: "https://discord.com/channels/1348632761468194877/1348632761753276472",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -113,24 +113,24 @@ const educationInfo = {
       schoolName: "Vasant Vally High School",
       logo: require("./assets/images/vasant_valley_logo.png"),
       subHeader: "Secondary Education",
-      Passing Year: "2021",
+      passingyear: "2021",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
-    {
-      schoolName: "Geethanjali College of Engineering and Technology",
-      logo: require("./assets/images/kg_logo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2023 - April 2027",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Participated in academic and extracurricular activities",
-        "Built interest in Computer Science and Programming"
+   {
+  schoolName: "Vasant Vally High School",
+  logo: require("./assets/images/vasant_valley_logo.png"),
+  subHeader: "Secondary Education",
+  duration: "2021",
+  desc: "Completed secondary education with a strong academic foundation.",
+  descBullets: [
+    "Participated in academic and extracurricular activities",
+    "Developed an interest in Computer Science"
   ]
-    }
+}
   ]
 };
 
@@ -184,7 +184,7 @@ const workExperiences = {
     {
   role: "Java & Data Structures Training",
   company: "Smart Interviews",
-  companylogo: require("./assets/images/Smartinterviews.png"), // replace later with Smart Interviews logo if you want
+  companylogo: require("./assets/images/SmartInterviews.png"), // replace later with Smart Interviews logo if you want
   date: "2025 - 2026",
   desc: "Completed intensive training in Data Structures, Algorithms, Problem Solving, and Competitive Programming.",
   descBullets: [
@@ -217,7 +217,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "GitHub",
-          url: "YOUR_GITHUB_REPO_LINK"
+          url: "url:https://github.com/harshitha1b"
         }
       ]
     },
@@ -229,7 +229,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Portfolio",
-          url: "YOUR_PORTFOLIO_LINK"
+          url: "https://github.com/harshitha1b"
         }
       ]
     }
