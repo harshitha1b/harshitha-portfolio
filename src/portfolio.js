@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/harshitha1b",
   linkedin: "http://linkedin.com/in/harshitha-boggula-77a7322aa",
   gmail: "harshithaboggula9@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  //gitlab: "https://gitlab.com/saadpasta",
   // Leetcode: "https://leetcode.com/u/harshitha__b1/",
   // Codechef: "https://www.codechef.com/users/harshitha_b1",
   // Discord: "https://discord.com/channels/1348632761468194877/1348632761753276472",
@@ -85,14 +85,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "DSA",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "OOPS",
-      fontAwesomeClassname: "fab fa-npm"
-    },
+    // {
+    //   skillName: "DSA",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
+    // {
+    //   skillName: "OOPS",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // },
    
   
   
@@ -109,17 +109,17 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    { 
-      schoolName: "Vasant Vally High School",
-      logo: require("./assets/images/vasant_valley_logo.png"),
-      subHeader: "Secondary Education",
-      passingyear: "2021",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
+    {
+  schoolName: "Vasant Vally High School",
+  logo: require("./assets/images/vasant_valley_logo.png"),
+  subHeader: "Secondary Education",
+  duration: "2021",
+  desc: "Completed secondary education with a strong academic foundation.",
+  descBullets: [
+    "Participated in academic and extracurricular activities",
+    
+  ]
+},
    {
   schoolName: "Vasant Vally High School",
   logo: require("./assets/images/vasant_valley_logo.png"),
@@ -171,7 +171,7 @@ const workExperiences = {
     {
       role: "AI Pharma Distribution System Developer",
       company: "Academic Major Project",
-      companylogo: require("./assets/images/facebookLogo.png"), // keep temporarily
+     // companylogo: require("./assets/images/facebookLogo.png"), // keep temporarily
       date: "2026 - Present",
       desc: "Developing PharmaBridge AI, an AI-powered pharmaceutical distribution platform.",
       descBullets: [
@@ -184,7 +184,7 @@ const workExperiences = {
     {
   role: "Java & Data Structures Training",
   company: "Smart Interviews",
-  companylogo: require("./assets/images/SmartInterviews.png"), // replace later with Smart Interviews logo if you want
+   companylogo: require("./assets/images/SmartInterviews.png"), // replace later with Smart Interviews logo if you want
   date: "2025 - 2026",
   desc: "Completed intensive training in Data Structures, Algorithms, Problem Solving, and Competitive Programming.",
   descBullets: [
@@ -210,7 +210,7 @@ const bigProjects = {
   subtitle: "PROJECTS I HAVE BUILT",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+     // image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "PharmaBridge AI",
       projectDesc:
         "AI-powered pharmaceutical distribution system designed to improve inventory visibility, prescription verification, medicine tracking, and distributor coordination.",
@@ -222,7 +222,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      //image: require("./assets/images/nextuLogo.webp"),
       projectName: "Personal Portfolio",
       projectDesc:
         "A professional portfolio website showcasing my skills, projects, education, and achievements.",
