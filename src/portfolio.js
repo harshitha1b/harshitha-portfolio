@@ -121,14 +121,15 @@ const educationInfo = {
   ]
 },
    {
-  schoolName: "Vasant Vally High School",
-  logo: require("./assets/images/vasant_valley_logo.png"),
-  subHeader: "Secondary Education",
-  duration: "2021",
-  desc: "Completed secondary education with a strong academic foundation.",
+  schoolName: "Geethanjali College of Engineering and Technology",
+  logo: require("./assets/images/kg_logo.png"),
+  subHeader: "Bachelor of Technology in Computer Science and Engineering",
+  duration: "2023 - 2027",
+  desc: "Pursuing B.Tech in Computer Science and Engineering.",
   descBullets: [
-    "Participated in academic and extracurricular activities",
-    "Developed an interest in Computer Science"
+    "Focused on Data Structures, Algorithms, DBMS, OS, and Software Engineering",
+    "Working on AI and Full Stack Development projects",
+    "Building PharmaBridge AI and enhancing problem-solving skills through LeetCode"
   ]
 }
   ]
